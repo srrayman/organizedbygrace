@@ -140,7 +140,7 @@ li {
     list-style: none;
 }
 
-/* li a:hover {
+li a:hover {
     text-decoration: none;
 }
 
@@ -169,9 +169,9 @@ div.before-after-gallery {
     padding: 30px 50px 50px;
     width: 80vw;
     margin: 0 auto;
-} */
+}
 
-div.before-after-gallery-mobile {
+/* div.before-after-gallery-mobile {
     display: none;
 }
 
@@ -199,7 +199,7 @@ section.divider {
     margin: 40px auto 30px;
     padding: 0;
     background-color:  #7940b1;
-}
+} */
 
 section.divider.white {
     background-color: white;
