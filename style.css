@@ -33,7 +33,6 @@ aside.form-section p{
 }
 aside.form-section {
     background-color: white;
-    padding-bottom: 10px;
 }
 aside.form-section .flex-parent{
     align-items: center;
@@ -90,7 +89,7 @@ img {
 }
 
 input {
-    width: 80%;
+    width: 400px;
     height: 30px;
     padding-left: 20px;
     margin: 5px 0;
@@ -190,34 +189,31 @@ section.request-a-consultation {
 }
 
 section.testimonial {
-    /* background-image: url(./images/quote.svg);
-    background-size: cover; */
-    background-color: white;
-    width: 45%;
+    background-image: url(./images/quote.svg);
+    background-size: cover;
+    width: 434px;
+    height: 498px;
     margin: 20px;
-    padding: 40px 0 20px 0;
+    padding: 0;
 }
 
 section.testimonial p{
     width: 80%;
     margin: 0 auto;
     padding-top: 40px;
-    /* background-color: white; */
 }
 
 section.testimonal-container {
     /* width: 98vw; */
-    /* width: 90vw; */
+    width: 80vw;
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
     margin: 0 auto;
-    padding: 20px 20px 40px;
 }
 section.testimonials {
     background-color: #f2f3fa;
     margin: 0 auto;
-    padding: 0;
 }
 
 section.the-spaces {
@@ -236,7 +232,7 @@ section.strategy p {
 } */
 
 textarea {
-        width: 80%;
+        width: 400px;
         min-height: 100px;
         padding-left: 20px;
         margin: 5px 0;
@@ -294,20 +290,6 @@ textarea {
     margin-bottom: 40px;
 }
 
-.quotation-mark {
-    width: 100px;
-    text-align: left;
-}
-
-.quotation-mark-left {
-    position: relative;
-}
-
-.quotation-mark-right {
-    position: relative;
-    bottom: 10px;
-    right: 10px;
-}
 .strategy {
     background-color: #7940b1;
     color: white;
@@ -392,120 +374,85 @@ button.stylized-link:hover {
 /* tablet view-portrait */
 @media only screen and (max-width: 768px) {
 
-aside.form-section {
-    margin: 0 auto;
-}
-aside.left-section {
-    width: 100vw;
-    padding-bottom: 30px;
-}
-aside.the-story {
-    flex-direction: column;
-}
+    aside.form-section {
+        margin: 0 auto;
+    }
+    aside.left-section {
+        width: 100vw;
+        padding-bottom: 30px;
+    }
+    aside.the-story {
+        flex-direction: column;
+    }
 
-form {
-    width: 90vw;
-}
-h1 {
-    margin: 0 auto;
-    width: 60vw;
-}
+    form {
+        width: 90vw;
+    }
+    h1 {
+        margin: 0 auto;
+        width: 60vw;
+    }
 
-input, textarea {
-    width: 85%;
-}
-.mobile-nav {
-    display: block;
-    margin: 0 auto;
-}
+    input, textarea {
+        width: 85%;
+    }
+    .mobile-nav {
+        display: block;
+        margin: 0 auto;
+    }
 
-nav {
-    display: none;
-}
+    nav {
+        display: none;
+    }
 
-ol {
-    display: block;
-}
+    ol {
+        display: block;
+    }
 
-section.closet-pic {
-    width: 100%;
-    height: 700px;
-    background-size: 100%;
-}
+    section.closet-pic {
+        width: 100%;
+        height: 700px;
+        background-size: 100%;
+    }
 
-section.kitchen-pic {
-    width: 100vw;
-}
+    section.kitchen-pic {
+        width: 100vw;
+    }
 
-section.request-a-consultation {
-    flex-direction: column;
-    margin: 0 auto;
-    align-items: center;
-    padding-bottom: 20px;
-}
+    section.request-a-consultation {
+        flex-direction: column;
+        margin: 0 auto;
+        align-items: center;
+        padding-bottom: 20px;
+    }
 
-section.testimonial {
-    width: 70%;;
-}
+    section.testimonial p {
+        line-height: 1.5rem;
+    }
 
-section.testimonial p {
-    line-height: 1.5rem;
-}
+    section.the-spaces {
+        flex-direction: column;
+        margin: 0 auto;
+        text-align: center;
+    }
 
-section.the-spaces {
-    flex-direction: column;
-    margin: 0 auto;
-    text-align: center;
-}
+    footer {
+        flex-direction: column;
+    }
 
-footer {
-    flex-direction: column;
-}
+    aside.fun-facts p{
+        text-align: left;
+    }
 
-aside.fun-facts p{
-    text-align: left;
-}
-
-.strategy p {
-    width: 70vw;
-}
+    .strategy p {
+        width: 70vw;
+    }
 
 }
 
 /* iphone */
 @media only screen and (max-width: 480px) {
 
-a.stylized-link.main-link {
-    width: 80%;
-}
-aside.fun-facts {
-    padding: 0 30px 20px 10px;
-}
-footer {
-    padding: 20px;
-}
-form {
-    margin: 0;
-}
-
-main p {
-    width: 70vw;
-}
-
-/* section.about-grace p {
-    width: 95%;
-} */
-section.closet-pic {
-    height: 450px;
-}
-section.testimonial {
-    width: 80%;
-    padding: 20px 0 10px 0;
-}
-
-/* .fun-facts {
-    padding-bottom: 60px;
-} */
 }
 
 /* font-family: 'Source Sans Pro', sans-serif;
