@@ -106,7 +106,7 @@ img {
     width: 50vw;
 }
 
-/* input {
+input {
     width: 80%;
     height: 30px;
     padding-left: 20px;
@@ -138,9 +138,9 @@ nav {
 }
 li {
     list-style: none;
-} */
+}
 
-li a:hover {
+/* li a:hover {
     text-decoration: none;
 }
 
@@ -169,7 +169,7 @@ div.before-after-gallery {
     padding: 30px 50px 50px;
     width: 80vw;
     margin: 0 auto;
-}
+} */
 
 div.before-after-gallery-mobile {
     display: none;
