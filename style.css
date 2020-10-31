@@ -468,9 +468,9 @@ nav {
     display: none;
 }
 
-li.nav-item:last-of-type {
+/* li.nav-item:last-of-type {
     padding-bottom: 25px;
-}
+} */
 
 ol {
     justify-content: center;
