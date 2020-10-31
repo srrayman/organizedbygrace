@@ -171,7 +171,7 @@ div.before-after-gallery {
     margin: 0 auto;
 }
 
-/* div.before-after-gallery-mobile {
+div.before-after-gallery-mobile {
     display: none;
 }
 
@@ -199,50 +199,8 @@ section.divider {
     margin: 40px auto 30px;
     padding: 0;
     background-color:  #7940b1;
-} */
-
-section.divider.white {
-    background-color: white;
 }
 
-section.denim-pic {
-    background-image: url("./images/denim.jpg");
-    height: 600px;
-    width: 50vw;
-    background-size: 150%;
-    padding: 0;
-    background-position: bottom;
-}
-
-section.pricing p {
-    margin: 0 auto;
-    text-align: center;
-}
-
-section.request-a-consultation {
-    padding: 0;
-    display: flex;
-    background-color: white;
-}
-
-section.testimonial {
-    /* background-image: url(./images/quote.svg);
-    background-size: cover; */
-    background-color: white;
-    width: 22%;
-    margin: 20px auto;
-    padding: 40px 0 20px 0;
-    flex-wrap: wrap;
-}
-
-section.testimonial p{
-    width: 80%;
-    margin: 0 auto;
-    padding-top: 10px;
-    line-height: 1.25rem;
-    font-size: 1rem;
-    /* background-color: white; */
-}
 
 section.testimonal-container {
     /* width: 98vw; */
