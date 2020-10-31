@@ -49,7 +49,7 @@ aside.left-section {
     width: 50vw;
 }
 
-footer {
+/* footer {
     background-color: #e3ddd7;
     padding: 30px;
 }
@@ -66,7 +66,7 @@ footer p {
 footer ol {
     width: 100px;
     margin: 0 auto;
-}
+} */
 
 form {
     background-color: white;
@@ -165,7 +165,7 @@ section {
     padding: 40px;
 }
 
-/* div.before-after-gallery {
+div.before-after-gallery {
     padding: 30px 50px 50px;
     width: 80vw;
     margin: 0 auto;
@@ -180,7 +180,7 @@ div.before-after-gallery h5{
     text-align: center;
     font-size: 1.5rem;
     padding-top: 20rem;
-} */
+}
 section.organized-drawer-pic {
     background-image: url(./images/drawer.jpg);
     width: 50vw;
