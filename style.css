@@ -201,76 +201,50 @@ section.divider {
     background-color:  #7940b1;
 }
 
+section.divider.white {
+    background-color: white;
+}
 
-section.testimonal-container {
-    /* width: 98vw; */
-    /* width: 90vw; */
-    /* width: 80%; */
+section.denim-pic {
+    background-image: url("./images/denim.jpg");
+    height: 600px;
+    width: 50vw;
+    background-size: 150%;
+    padding: 0;
+    background-position: bottom;
+}
+
+section.pricing p {
+    margin: 0 auto;
+    text-align: center;
+}
+
+section.request-a-consultation {
+    padding: 0;
     display: flex;
-    justify-content: space-between;
+    background-color: white;
+}
+
+section.testimonial {
+    /* background-image: url(./images/quote.svg);
+    background-size: cover; */
+    background-color: white;
+    width: 22%;
+    margin: 20px auto;
+    padding: 40px 0 20px 0;
     flex-wrap: wrap;
-    padding: 0 10px 30px;
-    /* padding: 20px 20px 40px; */
-}
-section.testimonials {
-    background-color: #f2f3fa;
-    padding: 30px 20px 10px 20px;
 }
 
-section.the-spaces {
-    display: flex;
-    background-color: #f2f3fa;
-    width: 100%;
-    padding: 0;
-}
-section.the-spaces h3{
-    margin-top: 30px;
-}
-
-section.strategy p {
-    margin-bottom: 30px;
-}
-
-small {
-    text-align: center;
+section.testimonial p{
+    width: 80%;
     margin: 0 auto;
-}
-textarea {
-        width: 80%;
-        min-height: 100px;
-        padding-left: 20px;
-        margin: 5px 0;
-        border: solid 1px lightgray;
-}
-
-.bg-light {
-    background-color: white!important;
-    padding: 0;
-    margin: 0 auto;
-    text-align: center;
+    padding-top: 10px;
+    line-height: 1.25rem;
+    font-size: 1rem;
+    /* background-color: white; */
 }
 
 
-.fa-facebook:before, .fa-instagram:before{
-    color: black;
-    font-size: 1.5rem;
-    margin: 10px;
-    border-bottom: none;
-}
-
-
-.flex-parent {
-    display: flex;
-}
-
-.fun-facts {
-    background-color: #f2f3fa;
-    width: 70vw;
-    line-height: 1rem;
-    text-align: left;
-    padding: 0 30px 30px;
-    margin: 0 auto 80px;
-}
 
 .grace-headshot {
     width: 200px;
