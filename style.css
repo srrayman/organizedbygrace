@@ -49,10 +49,6 @@ aside.left-section {
     width: 50vw;
 }
 
-div.before-after-gallery {
-    width: 80vw;
-}
-
 footer {
     background-color: #e3ddd7;
     padding: 30px;
@@ -171,13 +167,13 @@ section {
 
 div.before-after-gallery {
     padding: 30px 50px 50px;
-    width: 80vw;
+    width: 80%;
     margin: 0 auto;
 }
 
-div.before-after-gallery-mobile {
+/* div.before-after-gallery-mobile {
     display: none;
-}
+} */
 
 div.before-after-gallery h5{
     padding: 0;
@@ -600,7 +596,7 @@ aside.fun-facts {
 }
 
 div.before-after-gallery {
-    width: 100vw;
+    width: 100%;
 }
 
 footer {
