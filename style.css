@@ -292,11 +292,10 @@ textarea {
     text-align: center;
 }
 
-.carousel-inner > .item >img{
-    min-height : 300px;
-    max-height : 300px;
-    width : 100%;
-  }
+.carousel-inner > .item > img, .carousel-inner > .item > a > img{
+    margin:auto;
+}
+
 
 .fa-facebook:before, .fa-instagram:before{
     color: black;
