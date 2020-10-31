@@ -49,6 +49,10 @@ aside.left-section {
     width: 50vw;
 }
 
+div.before-after-gallery {
+    width: 80vw;
+}
+
 footer {
     background-color: #e3ddd7;
     padding: 30px;
@@ -593,6 +597,10 @@ aside.fun-facts p{
 
 aside.fun-facts {
     padding: 0 30px 20px 10px;
+}
+
+div.before-after-gallery {
+    width: 100vw;
 }
 
 footer {
