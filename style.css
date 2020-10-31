@@ -225,6 +225,10 @@ section.request-a-consultation {
     background-color: white;
 }
 
+section.request-a-consultation h3{
+    padding-top: 55px;
+}
+
 section.testimonial {
     /* background-image: url(./images/quote.svg);
     background-size: cover; */
@@ -597,6 +601,7 @@ aside.fun-facts {
 
 div.before-after-gallery {
     width: 100%;
+    padding: 0;
 }
 
 footer {
