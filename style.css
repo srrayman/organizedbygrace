@@ -627,7 +627,7 @@ main p {
     width: 95%;
 } */
 
-section.before-after-gallery {
+div.before-after-gallery {
     display: none;
 }
 
