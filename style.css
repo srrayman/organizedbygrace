@@ -34,7 +34,6 @@ aside.form-section p{
 aside.form-section {
     background-color: white;
     padding-bottom: 10px;
-    padding-top: 20px;
 }
 aside.form-section .flex-parent{
     align-items: center;
@@ -51,21 +50,7 @@ aside.left-section {
 
 footer {
     background-color: #e3ddd7;
-    padding: 30px;
-}
-
-footer a {
-    font-size: 0.85rem;
-}
-
-footer p {
-    text-align: center;
-    margin: 10px;
-}
-
-footer ol {
-    width: 100px;
-    margin: 0 auto;
+    padding: 50px;
 }
 
 form {
@@ -76,10 +61,8 @@ form {
 
 h1 {
     font-family: 'Source Serif Pro', serif;
-    width: 60vw;
     font-weight: 300;
-    margin: 30px auto 0;
-    text-align: center;
+    margin-top: 60px;
 }
 
 h3 {
@@ -121,11 +104,11 @@ input#phone-radio, input#email-radio {
 }
 
 main {
-    background-image: url(./images/closet-main.jpg);
+    background-image: url(./images/istockphoto-1170193153-2048x2048.jpg);
     background-size: cover;
     width: 100%;
-    padding: 0 0 60px;
-    background-position: center;
+    padding: 0 40px 60px;
+    
 }
 
 main p {
@@ -133,14 +116,11 @@ main p {
     margin: 0 auto;
 }
 
-nav {
-    margin: 0 40px;
-}
 li {
     list-style: none;
 }
 
-li a:hover {
+li a: :hover {
     text-decoration: none;
 }
 
@@ -148,7 +128,7 @@ ol {
     margin: 0;
     padding: 0;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
 }
 
@@ -165,28 +145,13 @@ section {
     padding: 40px;
 }
 
-div.before-after-gallery {
-    padding: 30px 50px 50px;
-    width: 80vw;
-    margin: 0 auto;
+section.before-after-gallery {
+    padding: 0 50px 50px;
 }
-
-div.before-after-gallery-mobile {
-    display: none;
-}
-
-div.before-after-gallery h5{
-    padding: 0;
-    text-align: center;
-    font-size: 1.5rem;
-    padding-top: 20rem;
-}
-section.organized-drawer-pic {
-    background-image: url(./images/drawer.jpg);
+section.closet-pic {
+    background-image: url(./images/istockphoto-638761996-2048x2048.jpg);
     width: 50vw;
-    background-size: 150%;
-    background-position: center;
-    padding: 0;
+    background-size: 120%;
 }
 
 section.flex-parent {
@@ -205,13 +170,12 @@ section.divider.white {
     background-color: white;
 }
 
-section.denim-pic {
-    background-image: url("./images/denim.jpg");
+section.kitchen-pic {
+    background-image: url("./images/8CA393CBC057281A.jpg");
     height: 600px;
     width: 50vw;
     background-size: 150%;
     padding: 0;
-    background-position: bottom;
 }
 
 section.pricing p {
@@ -229,34 +193,31 @@ section.testimonial {
     /* background-image: url(./images/quote.svg);
     background-size: cover; */
     background-color: white;
-    width: 22%;
-    margin: 20px auto;
+    width: 45%;
+    margin: 20px;
     padding: 40px 0 20px 0;
-    flex-wrap: wrap;
 }
 
 section.testimonial p{
     width: 80%;
     margin: 0 auto;
-    padding-top: 10px;
-    line-height: 1.25rem;
-    font-size: 1rem;
+    padding-top: 40px;
     /* background-color: white; */
 }
 
 section.testimonal-container {
     /* width: 98vw; */
     /* width: 90vw; */
-    /* width: 80%; */
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     flex-wrap: wrap;
-    padding: 0 10px 30px;
-    /* padding: 20px 20px 40px; */
+    margin: 0 auto;
+    padding: 20px 20px 40px;
 }
 section.testimonials {
     background-color: #f2f3fa;
-    padding: 30px 20px 10px 20px;
+    margin: 0 auto;
+    padding: 0;
 }
 
 section.the-spaces {
@@ -265,18 +226,15 @@ section.the-spaces {
     width: 100%;
     padding: 0;
 }
-section.the-spaces h3{
-    margin-top: 30px;
-}
 
 section.strategy p {
     margin-bottom: 30px;
 }
 
-small {
-    text-align: center;
-    margin: 0 auto;
-}
+/* .about-grace {
+    height: 300px;
+} */
+
 textarea {
         width: 80%;
         min-height: 100px;
@@ -284,14 +242,6 @@ textarea {
         margin: 5px 0;
         border: solid 1px lightgray;
 }
-
-.bg-light {
-    background-color: white!important;
-    padding: 0;
-    margin: 0 auto;
-    text-align: center;
-}
-
 
 .fa-facebook:before, .fa-instagram:before{
     color: black;
@@ -321,55 +271,27 @@ textarea {
     margin-top: 40px;
 }
 
+/* .kitchen-pic {
+    /* background-size: auto; */
+    /* width: 50vw;
+    height: 600px;
+} */ */
+
 .left-section {
     width: 50vw;
     height: 600px;
-    padding: 0;
+    padding: 40px 0;
 
-}
-
-.navbar-light .navbar-toggler {
-    border: none;
-    outline: none;
-}
-
-.navbar-collapse {
-    -ms-flex-preferred-size: 100%;
-    flex-basis: 100%;
-    -webkit-box-flex: 1;
-    -ms-flex-positive: 1;
-    flex-grow: 0;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-    margin: 0 auto;
-}
-
-nav.mobile-nav ol {
-    align-items: flex-start;
-    justify-content: left;
-}
-
-nav.navbar {
-    position: fixed;
-    top: 0;
-    width: 100vw;
-    background-color: transparent;
-    z-index: 10;
-    box-shadow: 0 2px 2px -2px rgba(0,0,0,.2);
 }
 
 .mobile-nav {
     display: none;
 }
 
-.navbar-light .navbar-nav .nav-link {
-    color: #7940b1;
-}
 .organized-by-grace-logo {
     width: 150px;
-    margin-top: 80px;
-    margin-bottom: 10px;
+    margin-top: 20px;
+    margin-bottom: 40px;
 }
 
 .quotation-mark {
@@ -400,6 +322,12 @@ nav.navbar {
     width: 50vw;
     margin: 0 auto;
 }
+/* 
+.the-spaces {
+    height: 600px;
+    background-color: #f2f3fa;
+    padding: 0;
+} */
 
 a.stylized-link{
     background-color: #e3ddd7;
@@ -461,37 +389,9 @@ button.stylized-link:hover {
     width: 50vw;
 }
 
-@media only screen and (max-width: 1100px) {
-.mobile-nav {
-    display: block;
-    margin: 0 auto;
-}
-
-nav {
-    display: none;
-}
-
-/* li.nav-item:last-of-type {
-    padding-bottom: 25px;
-} */
-
-ol {
-    justify-content: center;
-}
-
-.mobile-nav img.organized-by-grace-logo {
-    margin: 30px auto;
-}
-
-
-
 /* tablet view-portrait */
 @media only screen and (max-width: 768px) {
 
-article p {
-    margin: 0 auto;
-    width: 75vw;
-}
 aside.form-section {
     margin: 0 auto;
 }
@@ -501,20 +401,14 @@ aside.left-section {
 }
 aside.the-story {
     flex-direction: column;
-    margin: 0 auto;
-}
-
-article.the-story p{
-    height: 75vw;
-    margin: 0;
 }
 
 form {
     width: 90vw;
 }
-
 h1 {
     margin: 0 auto;
+    width: 60vw;
 }
 
 input, textarea {
@@ -525,32 +419,22 @@ input, textarea {
     margin: 0 auto;
 }
 
-main p {
-    width: 75vw;
-}
 nav {
     display: none;
 }
 
-li.nav-item:last-of-type {
-    padding-bottom: 25px;
+ol {
+    display: block;
 }
 
-
-
-/* ol {
-    display: block;
-} */
-
-section.organized-drawer-pic {
+section.closet-pic {
     width: 100%;
     height: 700px;
     background-size: 100%;
 }
 
-section.denim-pic {
+section.kitchen-pic {
     width: 100vw;
-    height: 350px;
 }
 
 section.request-a-consultation {
@@ -560,16 +444,12 @@ section.request-a-consultation {
     padding-bottom: 20px;
 }
 
-/* section.testimonial {
-    width: 150px;
-} */
-
 section.testimonial {
-    width: 45%;
+    width: 70%;;
 }
+
 section.testimonial p {
     line-height: 1.5rem;
-    letter-spacing: 0.01rem;
 }
 
 section.the-spaces {
@@ -589,36 +469,25 @@ aside.fun-facts p{
 .strategy p {
     width: 70vw;
 }
-.the-story-box {
-    background-color: white;
-    width: 75vw;
-}
 
 }
 
 /* iphone */
 @media only screen and (max-width: 480px) {
 
-/* a.stylized-link.main-link {
+a.stylized-link.main-link {
     width: 80%;
-} */
+}
 aside.fun-facts {
     padding: 0 30px 20px 10px;
 }
 footer {
-    padding: 40px;
+    padding: 20px;
 }
 form {
     margin: 0;
 }
 
-h3 {
-    font-size: 1.5rem;
-}
-
-main {
-    padding: 0 0 20px;
-}
 main p {
     width: 70vw;
 }
@@ -626,31 +495,21 @@ main p {
 /* section.about-grace p {
     width: 95%;
 } */
-
-/* div.before-after-gallery {
-    display: none;
-}
-
-div.before-after-gallery-mobile {
-    display: block;
-    width: 95vw;
-} */
-
-section.organized-drawer-pic {
-    height: 350px;
-}
-
-section.pricing h3 {
-    padding-top: 20px;
+section.closet-pic {
+    height: 450px;
 }
 section.testimonial {
-    width: 90%;
+    width: 80%;
     padding: 20px 0 10px 0;
 }
 
-.fun-facts {
-    width: 85vw;
-    margin-bottom: 40px;
+/* .fun-facts {
+    padding-bottom: 60px;
+} */
 }
-}
-}
+
+/* font-family: 'Source Sans Pro', sans-serif;
+font-family: 'Source Serif Pro', serif; */
+/* light purple #f2f3fa  */
+/* main purple #7940b1 */
+/* tan #e3ddd7 */
