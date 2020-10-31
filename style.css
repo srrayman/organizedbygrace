@@ -169,9 +169,9 @@ div.before-after-gallery {
     padding: 30px 50px 50px;
 }
 
-div.before-after-gallery-mobile {
+/* div.before-after-gallery-mobile {
     display: none;
-}
+} */
 
 section.before-after-gallery h5{
     padding: 0;
@@ -624,13 +624,13 @@ main p {
     width: 95%;
 } */
 
-section.before-after-gallery {
+/* section.before-after-gallery {
     display: none;
-}
-
+} */
+/* 
 section.before-after-gallery-mobile {
     display: block;
-}
+} */
 
 section.organized-drawer-pic {
     height: 350px;
