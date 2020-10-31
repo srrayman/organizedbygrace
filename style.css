@@ -513,6 +513,12 @@ article.the-story p{
     margin: 0;
 }
 
+div.before-after-gallery {
+    padding: 10px 0 50px;
+    width: 100%;
+    margin: 0 auto;
+}
+
 form {
     width: 90vw;
 }
@@ -601,7 +607,7 @@ aside.fun-facts {
 
 div.before-after-gallery {
     width: 100%;
-    padding: 0;
+    padding: 0 0 30px 0;
 }
 
 footer {
