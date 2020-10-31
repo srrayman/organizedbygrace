@@ -167,6 +167,8 @@ section {
 
 section.before-after-gallery {
     padding: 30px 50px 50px;
+    width: 80vw;
+    margin: 0 auto;
 }
 
 section.before-after-gallery-mobile {
@@ -625,7 +627,7 @@ main p {
 } */
 
 section.before-after-gallery {
-    display: none;
+    /* display: none; */
 }
 
 section.before-after-gallery-mobile {
