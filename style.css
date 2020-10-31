@@ -165,11 +165,11 @@ section {
     padding: 40px;
 }
 
-section.before-after-gallery {
+div.before-after-gallery {
     padding: 30px 50px 50px;
 }
 
-section.before-after-gallery-mobile {
+div.before-after-gallery-mobile {
     display: none;
 }
 
