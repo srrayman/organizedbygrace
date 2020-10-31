@@ -314,11 +314,95 @@ textarea {
     margin: 0 auto 80px;
 }
 
+.grace-headshot {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-top: 40px;
+}
 
+.left-section {
+    width: 50vw;
+    height: 600px;
+    padding: 0;
 
-a.stylized-link.main-link{
-    background-color:transparent;
-    border: 1px solid black;
+}
+
+.navbar-light .navbar-toggler {
+    border: none;
+    outline: none;
+}
+
+.navbar-collapse {
+    -ms-flex-preferred-size: 100%;
+    flex-basis: 100%;
+    -webkit-box-flex: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 0;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+nav.mobile-nav ol {
+    align-items: flex-start;
+    justify-content: left;
+}
+
+nav.navbar {
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    background-color: transparent;
+    z-index: 10;
+    box-shadow: 0 2px 2px -2px rgba(0,0,0,.2);
+}
+
+.mobile-nav {
+    display: none;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #7940b1;
+}
+.organized-by-grace-logo {
+    width: 150px;
+    margin-top: 80px;
+    margin-bottom: 10px;
+}
+
+.quotation-mark {
+    width: 100px;
+    text-align: left;
+}
+
+.quotation-mark-left {
+    position: relative;
+}
+
+.quotation-mark-right {
+    position: relative;
+    bottom: 10px;
+    right: 10px;
+}
+.strategy {
+    background-color: #7940b1;
+    color: white;
+    padding-top: 20px;
+}
+
+.strategy h3 {
+    color: white;
+}
+
+.strategy p {
+    width: 50vw;
+    margin: 0 auto;
+}
+
+a.stylized-link{
+    background-color: #e3ddd7;
     padding: 10px 30px;
     margin: 40px auto;
     width: 200px;
@@ -327,92 +411,7 @@ a.stylized-link.main-link{
     box-sizing: content-box;
 }
 
-a.stylized-link.main-link:hover {
-    opacity: 0.5;
-}
 
-button.stylized-link {
-    background-color: #e3ddd7;
-    color: #7940b1;
-    font-family: 'Source Serif Pro', serif;
-    line-height: 2.25rem;
-    font-size: 1.1rem;
-    padding: 10px 30px;
-    margin: 20px auto;
-    width: 200px;
-    display: block;
-    border: none;
-}
-
-button.stylized-link:hover {
-    opacity: 0.5;
-}
-
-.testimonial p {
-    text-align: left;
-}
-
-.the-story {
-    display: flex;
-    justify-content: space-around;
-    text-align: center;
-    align-items: center;
-    width: 75vw;
-    margin: 0 auto;
-    
-}
-.the-story-box {
-    background-color: white;
-    width: 50vw;
-}
-
-@media only screen and (max-width: 1100px) {
-.mobile-nav {
-    display: block;
-    margin: 0 auto;
-}
-
-nav {
-    display: none;
-}
-
-/* li.nav-item:last-of-type {
-    padding-bottom: 25px;
-} */
-
-ol {
-    justify-content: center;
-}
-
-.mobile-nav img.organized-by-grace-logo {
-    margin: 30px auto;
-}
-
-
-
-/* tablet view-portrait */
-@media only screen and (max-width: 768px) {
-
-article p {
-    margin: 0 auto;
-    width: 75vw;
-}
-aside.form-section {
-    margin: 0 auto;
-}
-aside.left-section {
-    width: 100vw;
-    padding-bottom: 30px;
-}
-aside.the-story {
-    flex-direction: column;
-    margin: 0 auto;
-}
-
-article.the-story p{
-    height: 75vw;
-    margin: 0;
-}
 
 form {
     width: 90vw;
